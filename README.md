@@ -14,17 +14,17 @@ This project was developed using:
 
 The project utilizes the "Lord of the Rings" dataset, sourced from kaggle. This dataset comprises extensive text from the renowned literary work by J.R.R. Tolkien. For convenience and resource management, a subset of 10,000 sentences from the original dataset was used.
 ## Methodology
-** Data Preprocessing: **
+1. **Data Preprocessing:**
         Text is preprocessed to remove punctuation, normalize case, and tokenized using NLTK's tools.
         Vocabulary and word-to-index mappings are created for LSTM input.
-** Base LSTM: **
+2. **Base LSTM:**
         Utilizes word embeddings to capture sequential dependencies within the text.
 
-** Context-Aware LSTM: **
+3. **Context-Aware LSTM:**
         Enhances the base LSTM by incorporating semantic context via K-Means clustering of word embeddings.
         Visualization of Word Embeddings clusters using t-SNE for better comprehension of semantic relationships.
 
-** Training and Evaluation: **
+4. **Training and Evaluation:**
         Both models trained over 30 epochs, monitored for cosine similarity, loss, and accuracy.
         Validation conducted to compare the performance between base and context-aware LSTM.
 
