@@ -13,6 +13,9 @@ This project was developed using:
 ## Dataset
 
 The project utilizes the "Lord of the Rings" dataset, sourced from kaggle. This dataset comprises extensive text from the renowned literary work by J.R.R. Tolkien. For convenience and resource management, a subset of 10,000 sentences from the original dataset was used.
+
+![pos](https://github.com/poornikabonam/Context-Based-Text-Generation-using-LSTMs/assets/97566249/5fc299ea-1895-4fde-b3b6-31e23656204c)
+
 ## Methodology
 1. **Data Preprocessing:**
         Text is preprocessed to remove punctuation, normalize case, and tokenized using NLTK's tools.
@@ -29,7 +32,13 @@ The project utilizes the "Lord of the Rings" dataset, sourced from kaggle. This 
         Validation conducted to compare the performance between base and context-aware LSTM.
 
 ## Results
-
     Cosine Similarity: Measures the semantic similarity of generated text.
     Loss and Accuracy: Tracks training and validation performance metrics.
+    
+![accuracy](https://github.com/poornikabonam/Context-Based-Text-Generation-using-LSTMs/assets/97566249/be283ad6-661d-4888-abb6-b646f0b0f3bc)
+
+![cluster](https://github.com/poornikabonam/Context-Based-Text-Generation-using-LSTMs/assets/97566249/0ee710c0-1736-48d1-a55d-ddba1f14fd2f)
+
+![loss](https://github.com/poornikabonam/Context-Based-Text-Generation-using-LSTMs/assets/97566249/0d9f3a6e-6c73-4994-a9de-735674bdb395)
+
 
