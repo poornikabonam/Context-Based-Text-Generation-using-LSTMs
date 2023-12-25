@@ -26,7 +26,7 @@ from matplotlib.colors import ListedColormap
 nltk.download('punkt')
         
         
-with open('/kaggle/input/data-lotr-123/lotr.txt', 'r') as file:
+with open('lotr.txt', 'r') as file:
     p=file.read()
     
 lotr=sent_tokenize(p)
@@ -117,7 +117,6 @@ def token_lookup():
     Generate a dict to turn punctuation into a token.
     :return: Tokenized dictionary where the key is the punctuation and the value is the token
     """
-    # TODO: Implement Function
     token = dict()
     token['.'] = '<PERIOD>'
     token[','] = '<COMMA>'
